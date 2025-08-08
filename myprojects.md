@@ -137,3 +137,59 @@ Built a GUI-based job tracking system for genome data analysis with Spark job su
 - Leveraged **Kahn's algorithm** for job dependency resolution
 - Developed Spark job submission services
 - Integrated UI with backend databases
+
+# 🌐 Cloud-Based Product Development – Humana
+
+## 🔧 Role: Cloud Engineer  
+## ☁️ Platform: Google Cloud Platform (GCP)
+
+### 📌 Project: Event Management – Direct Messaging
+
+**Description:**  
+Developed an event-driven messaging product on GCP that consumes Kafka events or direct message objects, applies transformations, and triggers services via Google Cloud Functions. The system integrates with SES services to send emails based on provider lookup, and logs are persisted in MongoDB for monitoring. A feedback loop tracks message delivery status using message IDs.
+
+**Key Accountabilities:**
+- Designed feasible solutions and data models for each stage of development.
+- Configured Schema Registry to validate Kafka source messages.
+- Built Streamsets pipelines for Kafka message transformation.
+- Managed Kafka Confluent configuration to trigger GCP Cloud Functions.
+- Integrated SES SOAP services for web mailing operations.
+- Resolved cloud connectivity issues across services.
+- Secured SES authentication using Google Secret Manager and x509 certificates.
+- Configured serverless VPC to connect Cloud Functions with MongoDB.
+- Persisted logs in Google Cloud Logging and Bigtable for error tracking.
+- Scheduled Cloud Function triggers using Google Cloud Scheduler.
+- Supported HTML content and image attachments in triggered emails.
+
+---
+
+## 🔧 Role: Cloud Engineer  
+## ☁️ Platform: Google Cloud Platform (GCP)
+
+### 📌 Project: Event Management Services
+
+**Description:**  
+Built a generic event management product that consumes data from multiple Kafka sources. Applied dynamic filtering using Cloud SQL and streamed processed data to DB2. The system supports dynamic topic creation and filtration logic via Streamsets and Google Cloud Functions.
+
+**Key Accountabilities:**
+- Developed Streamsets pipelines with dynamic multi-topic Kafka consumers using REST APIs.
+- Created Google Cloud Functions for generic data filtration via MySQL and Kafka Python library.
+- Implemented Groovy scripting for event processing based on database filters.
+- Built REST APIs for CRUD operations across event management tables.
+
+---
+
+## 🔧 Role: Application Developer  
+## ☁️ Platform: Google Cloud Platform (GCP)
+
+### 📌 Project: API Services Development
+
+**Description:**  
+Designed and deployed APIs on top of MongoDB to serve data loaded from a warehouse into GCP buckets. The API interacts with downstream services and maps responses to FHIR models. APIs are registered as products for consumer subscription.
+
+**Key Accountabilities:**
+- Developed and scheduled Streamsets pipelines for initial and daily data loads.
+- Verified MongoDB data integrity post-load.
+- Built APIs using .NET and performed mock testing.
+- Deployed APIs across environments post-approval.
+- Registered APIs as products for consumer subscription and usage tracking.
